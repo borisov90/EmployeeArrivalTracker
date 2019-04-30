@@ -146,13 +146,15 @@ namespace JsonEmployeeGenerator
             return generator.Next(1, 4);
         }
 
-        private static JsonEmployee FillEmployeeData(Random generator, string[] employeesFromFile, int i)
+        private static JsonEmployee FillEmployeeData(Random generator, string[] employeesFromFile, int currentRowNumber)
         {
             JsonEmployee employee = new JsonEmployee();
-            employee.Id = i;
-            employee.Name = employeesFromFile[i].Split('\t')[0];
-            employee.Surname = employeesFromFile[i].Split('\t')[1];
-            employee.Email = employeesFromFile[i].Split('\t')[2];
+            employee.Id = currentRowNumber;
+
+            string[] employeeInfo = employeesFromFile[currentRowNumber].Split('\t');
+            employee.Name = employeeInfo[0];
+            employee.Surname = employeeInfo[1];
+            employee.Email = employeeInfo[2];
             employee.Age = generator.Next(employeeMinimumAge, employeeMaximumAge);
             return employee;
         }

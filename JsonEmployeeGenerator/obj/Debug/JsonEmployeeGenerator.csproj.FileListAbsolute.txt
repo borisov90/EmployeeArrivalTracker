@@ -5,3 +5,10 @@ D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\JsonEmployeeGenerator\bi
 D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\JsonEmployeeGenerator\obj\Debug\JsonEmployeeGenerator.exe
 D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\JsonEmployeeGenerator\obj\Debug\JsonEmployeeGenerator.pdb
 D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\JsonEmployeeGenerator\obj\Debug\JsonEmployeeGenerator.csprojResolveAssemblyReference.cache
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\bin\Debug\employees.txt
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\bin\Debug\JsonEmployeeGenerator.exe.config
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\bin\Debug\JsonEmployeeGenerator.exe
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\bin\Debug\JsonEmployeeGenerator.pdb
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\obj\Debug\JsonEmployeeGenerator.csprojResolveAssemblyReference.cache
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\obj\Debug\JsonEmployeeGenerator.exe
+D:\Projects\Fourth\EmployeeArrivalTracker\JsonEmployeeGenerator\obj\Debug\JsonEmployeeGenerator.pdb
