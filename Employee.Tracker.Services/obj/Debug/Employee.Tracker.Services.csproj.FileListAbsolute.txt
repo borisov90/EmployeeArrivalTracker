@@ -1,0 +1,13 @@
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\Employee.Tracker.Services.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\Employee.Tracker.Services.pdb
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\Employee.Tracker.Data.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\EntityFramework.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\Employee.Tracker.Data.pdb
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\EntityFramework.xml
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\obj\Debug\Employee.Tracker.Services.csprojResolveAssemblyReference.cache
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\obj\Debug\Employee.Tracker.Services.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\obj\Debug\Employee.Tracker.Services.pdb
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\log4net.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Services\bin\Debug\log4net.xml

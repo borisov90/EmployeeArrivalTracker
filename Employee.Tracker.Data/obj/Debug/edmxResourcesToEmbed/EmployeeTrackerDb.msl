@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EmployeeTrackerModelStoreContainer" CdmEntityContainer="EmployeeTrackerEntities">
+    <EntitySetMapping Name="Arrivals">
+      <EntityTypeMapping TypeName="EmployeeTrackerModel.Arrivals">
+        <MappingFragment StoreEntitySet="Arrivals">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="When" ColumnName="When" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

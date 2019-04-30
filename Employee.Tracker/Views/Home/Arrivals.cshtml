@@ -1,0 +1,39 @@
+﻿@model EmployeeTracker.Models.ArrivalViewModel
+
+@{
+    ViewBag.Title = "Arrivals";
+    @Scripts.Render("~/bundles/libs")
+
+}
+
+<h2>Arrivals</h2>
+@if (Model.Arrivals.Count() == 0)
+{
+    <p>No employees has arrived yet</p>
+}
+<table id="arrivals" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>EmployeeId</th>
+            <th>When</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var arrival in Model.Arrivals)
+        {
+            <tr>
+                <td>@arrival.EmployeeId</td>
+                <td>@arrival.When.ToShortDateString()</td>
+            </tr>
+        }
+
+</table>
+   
+<script>
+    $(document).ready(function () {
+        $("#arrivals").DataTable()
+    });
+</script>
+
+
+

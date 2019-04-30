@@ -1,0 +1,12 @@
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\Employee.Tracker.Data.dll.config
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\Employee.Tracker.Data.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\Employee.Tracker.Data.pdb
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\EntityFramework.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\EntityFramework.xml
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\obj\Debug\Employee.Tracker.Data.dll
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\obj\Debug\Employee.Tracker.Data.pdb
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\obj\Debug\EmployeeTracker.Data.Migrations.InitialMigration.resources
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\obj\Debug\Employee.Tracker.Data.csproj.GenerateResource.Cache
+D:\Projects\Fourth\EmployeeArrivalTrackerCodingExercise\Employee.Tracker.Data\obj\Debug\Employee.Tracker.Data.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+JsonEmployee class should be in another file and should be a public class. 
+Roles and Teams should either be Enums or KeyValues stored in the db.
+Variables like "e" shouldn't exist. "employee" is much more meaningfull.
+Instead of splitting every row like this ("e.Name = all_lines_in_file[i].Split('\t')[0];") we should split it once and add the values to a string array.
+Employee Teams shouldn't be strings, but objects of type 'Team' instead.
+Magic numbers should be avoided. 
