@@ -220,6 +220,7 @@
     <Compile Include="Models\ArrivalViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.html" />
     <Content Include="App_Data\EmployeeTracker.mdf" />
     <Content Include="App_Data\EmployeeTracker_log.ldf">
       <DependentUpon>EmployeeTracker.mdf</DependentUpon>

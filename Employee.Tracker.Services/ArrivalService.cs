@@ -10,6 +10,8 @@ using System.Net;
 using System.Web;
 using System.IO;
 using Newtonsoft.Json;
+using log4net;
+using System.Reflection;
 
 namespace EmployeeTracker.Services
 {
@@ -19,6 +21,7 @@ namespace EmployeeTracker.Services
         private string CALLBACK_URL = "Home/ReceiveDataFromService";
         private const string WEB_SERVICE_TOKEN = "X-Fourth-Token";
         private const string ACCEPT_CLIENT_HEADER = "Fourth-Monitor";
+        private static ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         public async Task<ValidationToken> GetArrivalsFromApi(DateTime date, string baseUrl)
         {
@@ -47,9 +50,11 @@ namespace EmployeeTracker.Services
 
                 return validationToken;
             }
-            catch (Exception ex)
+            catch (Exception exception)
             {
-                throw ex;
+                Log.Error("Subscribing to the arrivals api", exception);
+
+                throw exception;
             }
         }
 

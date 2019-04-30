@@ -1,9 +1,11 @@
 ﻿using Employee.Tracker.Services.Contracts;
 using EmployeeTracker.Data.Common;
 using EmployeeTracker.Models;
+using log4net;
 using System;
 using System.Net;
 using System.Net.Http;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
@@ -13,6 +15,7 @@ namespace EmployeeTracker.Controllers
     {
         private IArrivalService _arrivalService;
         private IUnitOfWork _unitOfWork;
+        private static ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         public HomeController(IArrivalService arrivalService, IUnitOfWork unitOfWork)
         {
@@ -35,9 +38,10 @@ namespace EmployeeTracker.Controllers
                 }
                 return ArrivalsView();
             }
-            catch (Exception)
+            catch (Exception exception)
             {
-                //maybe implement some logging later
+                Log.Error("Getting arrivals from the api", exception);
+
                 return View("Error");
             }
         }
@@ -60,9 +64,9 @@ namespace EmployeeTracker.Controllers
                     }
                     await _unitOfWork.SaveChangesAsync();
                 }
-                catch (Exception)
+                catch (Exception exception)
                 {
-                    //maybe implement some logging later
+                    Log.Error("Parsing the arrivals data", exception);
                 }
             }
 

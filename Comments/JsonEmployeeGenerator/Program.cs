@@ -8,7 +8,7 @@ using System.Web.Script.Serialization;
 
 namespace JsonEmployeeGenerator
 {
-    class Program
+    public class Program
     {
         private static int employeeMinimumAge = 18;
         private static int employeeMaximumAge = 66;
@@ -23,7 +23,6 @@ namespace JsonEmployeeGenerator
         {
             var employeesFromFile = File.ReadAllLines("employees.txt").ToArray();
             List<JsonEmployee> employees = GetJsonEmployees(employeesFromFile);
-
             CreateEmployeeJsonFile(employees);
         }
 
@@ -71,9 +70,9 @@ namespace JsonEmployeeGenerator
                     stringBuilder.Append(string.Format("\"Name\":{0}}}", employee.Name));
                     stringBuilder.Append(",");
 
-                    var formattedEmployeed = stringBuilder.ToString();
+                    var formattedEmployee = stringBuilder.ToString();
 
-                    jsonFile.WriteLine(formattedEmployeed);
+                    jsonFile.WriteLine(formattedEmployee);
                 }
                 jsonFile.WriteLine("]");
                 jsonFile.Flush();

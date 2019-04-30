@@ -121,6 +121,7 @@ D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\Syste
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\System.Web.WebPages.dll
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\EntityFramework.dll
+D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\log4net.dll
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\WebActivatorEx.dll
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\Microsoft.Owin.dll
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\System.Web.Http.dll
@@ -155,6 +156,7 @@ D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\Syste
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\EntityFramework.xml
+D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\log4net.xml
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\Microsoft.Owin.xml
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\System.Web.Http.xml
 D:\Projects\Fourth\EmployeeArrivalTracker\Employee.Tracker.Tests\bin\Debug\Ninject.Web.Common.xml
